@@ -14,13 +14,13 @@ docker-compose down
 
 ### To push to DockerHub, first tag your existing image to dockerhub publich account and then push
 ```
- docker tag k8n_db_sahil:1.0.0 svishwak123/k8n_db_sahil:1.0.0
+ docker tag k8n_db_sahil:1.0.0 sahilvashisht78/k8n_db_sahil:1.0.0
  docker login
- docker push svishwak123/k8n_db_sahil:1.0.0
+ docker push sahilvashisht78/k8n_db_sahil:1.0.0
 ```
 ```
- docker tag k8n_postgres_sahil:1.0.0 svishwak123/k8n_postgres_sahil:1.0.0
- docker push svishwak123/k8n_postgres_sahil:1.0.0
+ docker tag k8n_postgres_sahil:1.0.0 sahilvashisht78/k8n_postgres_sahil:1.0.0
+ docker push sahilvashisht78/k8n_postgres_sahil:1.0.0
 ```
 
 

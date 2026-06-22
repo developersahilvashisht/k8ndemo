@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: api-service
-        image: svishwak123/k8n_db_sahil:1.0.0
+        image: sahilvashisht78/k8n_db_sahil:1.0.0
         ports:
         - containerPort: 3000
         resources:
