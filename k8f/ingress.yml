@@ -8,8 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: api.sahil.com
-    http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
