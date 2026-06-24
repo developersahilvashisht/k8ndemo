@@ -75,9 +75,7 @@ kubectl apply -f .\k8f\ --dry-run=server
 
 
 ### To test and launch the API Service URL and health check
-```4.157.145.84/items
-   4.157.145.84/health
-```
+```4.157.145.84/items and 4.157.145.84/health```
 
 
 ### Optionally do a port-forward to test via browser locally
