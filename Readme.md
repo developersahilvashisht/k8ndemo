@@ -74,8 +74,11 @@ kubectl apply -f .\k8f\ --dry-run=server
 ```kubectl get all -n myapp```
 
 
-### To test and launch
-```docker exec -it <kind-node-container-ip> curl localhost:30080/items```
+### To test and launch the API Service URL and health check
+```4.157.145.84/items
+   4.157.145.84/health
+```
+
 
 ### Optionally do a port-forward to test via browser locally
 ```kubectl port-forward svc/api-service-svc -n myapp 3000:3000```
